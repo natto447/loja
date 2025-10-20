@@ -2,7 +2,7 @@ name: Validação de HTML
 
 on:
   push:
-    branches: [ main ]
+    branches: [master ]
 
 jobs:
   build:
