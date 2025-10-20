@@ -1,24 +1,25 @@
-name: Validação de HTML
+name: HTML Validation
 
 on:
   push:
-    branches: [master ]
+    branches: [ master ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout do código
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Instalar Node.js
+      - name: Install Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: Instalar HTMLHint
+      - name: Install HTMLHint
         run: npm install -g htmlhint
 
-      - name: Validar HTML
+      - name: Validate HTML
         run: htmlhint index.html
+
