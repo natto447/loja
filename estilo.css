@@ -1,0 +1,20 @@
+body{padding:0px;background-image: url("fundo.png")}
+div#site{background-color: #1E90FF;width:1005px; margin:auto;padding:1px;margin-top: 0px}
+div#titulo{background-color: blue; width:100%;height: 120px}
+div#menu{;height:50px;margin-top: 10px ; padding:5px}
+div#conteudo{background-color:#1E90FF;height: 500px;width: 750px;margin-top: 10px;margin-bottom: 5px ;float: left}
+div#lateral{background-color:#1E90FF ;height:450px;margin-top:15px;width:235px;float:right}
+div#rodape{height: 120px;clear: both;background-image:url("rodape.jpg")}
+DIV#menu ul{background-color: #1E90FF ;height: 70px}
+div#menu ul li {display: inline}
+div#menu ul li a {color: white; font-size: 15px; font-family: sans-serif;text-decoration: none;float: left;padding: 20px ;padding-left: 80px;padding-right: 80px}
+div#menu ul li a:hover{background-color: gray}
+div#conteudo ul { display: inline; list-style: circle  } 
+div#titulo img {height:150px; width:100%;/* largura */ /*altura*/margin-top: 1px; /*margem*/}
+div#filmes { background-image: url("filmes.jpg");height:400px;width: 500px;float: right;margin-top: 5px;padding-bottom: 100px; }
+div#lista {height:100px;width: 100px;float:left;margin-top: 10px;padding-left: 30px }
+div#lista ul li a {color: black; font-size: 15px; font-family: sans-serif;text-decoration: none}
+div#lista ul li a:hover{background-color: white}
+div#lateral table {border: 4px;border-color: black;table-layout: auto ;border:solid; background-color: greenyellow}
+
+
